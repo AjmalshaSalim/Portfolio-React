@@ -5,6 +5,7 @@ import {
     AiOutlineTwitter,
     AiOutlineLinkedin,
     AiOutlineGithub,
+    AiOutlineGoogle,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -13,12 +14,12 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hi, <br />I am <span className="text-accent">A</span>jmalsha <br />
-                        MERN stack developer
+                        Hi, <br />I am <span className="text-accent">A</span>jmalsha Salim<br />
+                        MERN Stack Developer
                     </h1>
 
-                    <p className="py-5">
-                        I am proficient in JavaScript, React.js and Tailwind CSS
+                    <p className="py-5 text-xl font-light">
+                         Proficient in JavaScript, MongoDB, Express, React, Node.js.
                     </p>
 
                     <div className="flex py-5 ">
@@ -42,6 +43,13 @@ const Hero = () => {
                         >
                             {" "}
                             <AiOutlineGithub size={40} />{" "}
+                        </a>
+                        <a
+                            href="mailto:ajmalaj8085@gmail.com"
+                            className="pr-4 inline-block text-accent hover:text-white"
+                        >
+                            {" "}
+                            <AiOutlineGoogle size={40} />{" "}
                         </a>
                     </div>
                     <br />
