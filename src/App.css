@@ -2,29 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-lg
+}
+
+.projects img {
+  width: 100%;
+}
+
 /* color */
-.bg-primary{
-  background-color: #0f172a;
+.bg-primary {
+  background: #0F172A;
 }
 
-.bg-secondary{
-  background-color: #1e293b;
+.bg-secondery {
+  background: #1E293B;
 }
 
-.bg-accent{
-  background-color: #7477ff;
+.bg-accent {
+  background: #7477FF;
 }
 
-.text-accent{
-  color: #7477ff;
+.text-accent {
+  color: #7477FF;
 }
 
-nav li a{
-  @apply p-4 py-5 text-lg;
+
+nav li a {
+  @apply px-4 py-5 text-lg;
 }
-nav li a:hover{
-  color: #7477ff;
+
+nav li a:hover {
+  color: #7477FF;
 }
-.mobile-nav{
-  @apply block md:hidden fixed top-10 py-2 h-full w-full bg-gray-900 duration-300;
+
+.mobile-nav {
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
+}
+
+
+/* hero */
+h1 {
+  font-family: 'Pacifico', cursive;
+  line-height: 1.5 !important;
 }
