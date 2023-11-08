@@ -23,7 +23,7 @@ body {
 }
 
 .bg-secondery {
-  background: #1E293B;
+  background: #293244;
 }
 
 .bg-accent {
@@ -46,10 +46,18 @@ nav li a:hover {
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
-
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: #293244;
+  z-index: 100; 
+}
 
 /* hero */
 h1 {
   font-family: 'impact';
   line-height: 1.5 !important;
+}
+.logo{
+  font-family: Impact (sans-serif)
 }

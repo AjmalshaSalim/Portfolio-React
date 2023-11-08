@@ -5,25 +5,28 @@ const Header = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle)
     return (
-        <header className='flex justify-between px-5 py-2 bg-primary text-white'>
-            <a href="/" className='logo text-2xl font-bold text-accent'>Ajmalsha Salim</a>
+        <header className={'flex justify-between px-5 py-4 bg-primary text-white sticky-header '}>
+            <a href="/" className='logo text-2xl font-bold text-accent'>AJMALSHA</a>
             {/* Desktop Nav */}
             <nav className='hidden md:block'>
                 <ul className='flex'>
                     <li>
-                        <a href="/" >About</a>
+                        <a href="/#about" >About</a>
                     </li>
                     <li>
-                        <a href="/#project" >Projects</a>
+                        <a href="/#projects" >Projects</a>
                     </li>
                     <li>
-                        <a href="/#blog" >Experiences</a>
+                        <a href="/#Courses" >Courses</a>
                     </li>
                     <li>
                         <a href="/#contact" >Contact</a>
                     </li>
                     <li>
-                        <a href="/#resume" >Resume</a>
+                        <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
+                            target="_blank"
+                            without
+                            rel="noreferrer" >Resume</a>
                     </li>
                 </ul>
             </nav>
@@ -32,19 +35,22 @@ const Header = () => {
                 : "mobile-nav left-0"}>
                 <ul className='flex flex-col'>
                     <li>
-                        <a href="/" >About</a>
+                        <a href="/about" >About</a>
                     </li>
                     <li>
-                        <a href="/#project" >Projects</a>
+                        <a href="/#projects" >Projects</a>
                     </li>
                     <li>
-                        <a href="/#blog" >Blog</a>
+                        <a href="/#Courses" >Courses</a>
                     </li>
                     <li>
                         <a href="/#contact" >Contact</a>
                     </li>
                     <li>
-                        <a href="/#resume" >Resume</a>
+                        <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
+                            target="_blank"
+                            without
+                            rel="noreferrer" >Resume</a>
                     </li>
                 </ul>
             </nav>

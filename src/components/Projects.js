@@ -5,7 +5,7 @@ import Tesla from "../assets/Tesla.png";
 import Netflix from "../assets/Netflix.png";
 import Starlink from "../assets/Starlink.png";
 import Jeep from "../assets/Jeep.png";
-import Ds from "../assets/Ds.jpg";
+// import Ds from "../assets/Ds.jpg";
 
 const Projects = () => {
     const projects = [
@@ -51,13 +51,13 @@ const Projects = () => {
             live: "https://ajmalshasalim.github.io/jeepclone/",
             code: "https://github.com/AjmalshaSalim/jeepclone",
         },
-        {
-            img: Ds,
-            title: "Data Structure",
-            desc: "Array, Linked list, Hashtable, Heap, Stack, Queue, Tree, Graph",
-            live: "/",
-            code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
-        },
+        // {
+        //     img: Ds,
+        //     title: "Data Structure",
+        //     desc: "Array, Linked list, Hashtable, Heap, Stack, Queue, Tree, Graph",
+        //     live: "/",
+        //     code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
+        // },
 
     ];
 
