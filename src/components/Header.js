@@ -34,26 +34,26 @@ const Header = () => {
             {/* Mobile Nav */}
             <nav className={!toggle ? "mobile-nav left-[-100%]"
                 : "mobile-nav left-0"}>
-                <ul className='flex flex-col'>
-                    <li>
-                        <a href="/about" >About</a>
-                    </li>
-                    <li>
-                        <a href="/#projects" >Projects</a>
-                    </li>
-                    <li>
-                        <a href="/#Courses" >Courses</a>
-                    </li>
-                    <li>
-                        <a href="/#contact" >Contact</a>
-                    </li>
-                    <li>
-                        <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
-                            target="_blank"
-                            without
-                            rel="noreferrer" >Resume</a>
-                    </li>
-                </ul>
+                  <ul className='flex flex-col'>
+        <li style={{ zIndex: 1 }}>
+            <a href="/about">About</a>
+        </li>
+        <li style={{ zIndex: 1 }}>
+            <a href="/#projects">Projects</a>
+        </li>
+        <li style={{ zIndex: 1 }}>
+            <a href="/#Courses">Courses</a>
+        </li>
+        <li style={{ zIndex: 1 }}>
+            <a href="/#contact">Contact</a>
+        </li>
+        <li style={{ zIndex: 2 }}>
+            <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
+                target="_blank"
+                without
+                rel="noreferrer">Resume</a>
+        </li>
+    </ul>
             </nav>
             {/*Toggle button */}
             <button onClick={handleToggle} className="block md:hidden">
