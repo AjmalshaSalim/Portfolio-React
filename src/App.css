@@ -55,7 +55,18 @@ nav li a:hover {
   background: #293244;
   z-index: 100; 
 }
-
+.aboutSession{
+  background-image: url("./assets/desktop4.jpg");
+  background-size: cover; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.contactSession{
+  background-image: url("./assets/desktop3.jpg"); 
+  background-size: cover; /* Adjust the size as needed */
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
 /* hero */
 h1 {
   font-family: 'impact';

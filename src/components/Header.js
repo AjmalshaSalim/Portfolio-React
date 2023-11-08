@@ -12,7 +12,7 @@ const Header = () => {
             <nav className='hidden md:block font-light'>
                 <ul className='flex'>
                     <li>
-                        <a href="/#about" >About</a>
+                        <a href="/#About" >About</a>
                     </li>
                     <li>
                         <a href="/#projects" >Projects</a>
@@ -36,7 +36,7 @@ const Header = () => {
                 : "mobile-nav left-0"}>
                   <ul className='flex flex-col'>
         <li style={{ zIndex: 1 }}>
-            <a href="/about">About</a>
+            <a href="/#About">About</a>
         </li>
         <li style={{ zIndex: 1 }}>
             <a href="/#projects">Projects</a>

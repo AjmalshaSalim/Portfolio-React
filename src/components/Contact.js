@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="bg-secondery px-5 py-32" id="contact">
+    <section className="contactSession bg-secondery px-5 py-32" id="contact">
       <div className="text-center md:w-[60%] mx-auto text-white">
         <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">
           Contact Me
         </h2>
-        <p className="font-light text-xl">
+        <p className="font-light text-md">
           I am currently open for a fulltime MERN Stack Developer role. If you
           want to discuss about that feel free to email me or call me.
         </p>

@@ -1,6 +1,6 @@
 import React from "react";
 import Brototype from "../assets/Brototype.jpg";
-import Gtec from "../assets/gtech.png";
+import Gtec from "../assets/gtech.jpg";
 
 const Courses = () => {
     const Blog = [
@@ -44,7 +44,7 @@ const Courses = () => {
                     return (
                         <div className="relative" key={i}>
                             <img className="rounded-xl" src={project.img} alt={project.title} />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-md">
+                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[80%] h-[80%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-md">
                                 <p className="py-5 text-center px-2 text-white font-light">
                                     {project.title}
                                     <br />
