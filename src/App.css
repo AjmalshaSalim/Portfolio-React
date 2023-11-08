@@ -17,6 +17,9 @@ body {
   width: 100%;
 }
 
+.logoAj{
+width: 40px;
+}
 /* color */
 .bg-primary {
   background: #0F172A;

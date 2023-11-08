@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
+import Logo from '../assets/Logo.png';
 
 const Header = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle)
     return (
         <header className={'flex justify-between px-5 py-4 bg-primary text-white sticky-header '}>
-            <a href="/" className='logo text-2xl font-bold text-accent'>AJMALSHA</a>
+            <a href="/" className='logo text-2xl font-bold text-accent'><img src={Logo} alt="Logo" className='logoAj rounded-full' /></a>
             {/* Desktop Nav */}
-            <nav className='hidden md:block'>
+            <nav className='hidden md:block font-light'>
                 <ul className='flex'>
                     <li>
                         <a href="/#about" >About</a>

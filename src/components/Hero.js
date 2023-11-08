@@ -14,9 +14,10 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hi, <br />I am <span className="text-accent">A</span>jmalsha Salim<br />
-                        MERN Stack Developer
+                        Hi, <br /><span className="text-accent">I am </span>Ajmalsha Salim<br />
+                        
                     </h1>
+                    <h2 className="text-2xl lg:text-5xl">MERN Stack<span className="text-accent"> Developer</span></h2>
 
                     <p className="py-5 text-xl font-light">
                          Proficient in JavaScript, MongoDB, Express, React, Node.js.
