@@ -6,6 +6,8 @@ import Netflix from "../assets/Netflix.png";
 import Starlink from "../assets/Starlink.png";
 import Jeep from "../assets/Jeep.png";
 // import Ds from "../assets/Ds.jpg";
+import Todo from "../assets/Todo.png";
+
 
 const Projects = () => {
     const projects = [
@@ -51,6 +53,13 @@ const Projects = () => {
             live: "https://ajmalshasalim.github.io/jeepclone/",
             code: "https://github.com/AjmalshaSalim/jeepclone",
         },
+        {
+            img: Todo,
+            title: "Todo App",
+            desc: "Todo App. Used React JS,CSS",
+            live: "https://mytodooo.netlify.app/",
+            code: "https://github.com/AjmalshaSalim/Todo-App-React",
+        },
         // {
         //     img: Ds,
         //     title: "Data Structure",
@@ -58,6 +67,7 @@ const Projects = () => {
         //     live: "/",
         //     code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
         // },
+
 
     ];
 
