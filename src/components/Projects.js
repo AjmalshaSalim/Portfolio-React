@@ -5,8 +5,9 @@ import Tesla from "../assets/Tesla.png";
 import Netflix from "../assets/Netflix.png";
 import Starlink from "../assets/Starlink.png";
 import Jeep from "../assets/Jeep.png";
-// import Ds from "../assets/Ds.jpg";
+import Ds from "../assets/Ds.jpg";
 import Todo from "../assets/Todo.png";
+import GoalSetter from "../assets/GoalSetter.png";
 
 
 const Projects = () => {
@@ -17,6 +18,13 @@ const Projects = () => {
             desc: " An E-commerece Website. Built with CSS, Bootstrap, Node.js, Express.js, MongoDB & MVC Architeture.",
             live: "https://www.bigshopy.live/",
             code: "https://github.com/AjmalshaSalim/BIG-SHOPY",
+        },
+        {
+            img: GoalSetter,
+            title: "GoalSetter",
+            desc: "Goal Setter App. Used React as Front-end and Node JS as Backend. Database - MongoDB(user & Admin), Firebase(image). Also used JWT",
+            live: "/",
+            code: "https://github.com/AjmalshaSalim/Goal-Setter-React",
         },
         {
             img: Netflix,
@@ -60,13 +68,14 @@ const Projects = () => {
             live: "https://mytodooo.netlify.app/",
             code: "https://github.com/AjmalshaSalim/Todo-App-React",
         },
-        // {
-        //     img: Ds,
-        //     title: "Data Structure",
-        //     desc: "Array, Linked list, Hashtable, Heap, Stack, Queue, Tree, Graph",
-        //     live: "/",
-        //     code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
-        // },
+        {
+            img: Ds,
+            title: "Data Structure",
+            desc: "Array, Linked list, Hashtable, Heap, Stack, Queue, Tree, Graph",
+            live: "/",
+            code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
+        },
+
 
 
     ];
