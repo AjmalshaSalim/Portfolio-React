@@ -43,8 +43,8 @@ const Courses = () => {
                 {Blog.map((project, i) => {
                     return (
                         <div className="relative" key={i}>
-                            <img className="rounded-xl" src={project.img} alt={project.title} />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[80%] h-[80%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-md">
+                            <img className="rounded-3xl" src={project.img} alt={project.title} />
+                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[80%] h-[80%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-3xl">
                                 <p className="py-5 text-center px-2 text-white font-light">
                                     {project.title}
                                     <br />

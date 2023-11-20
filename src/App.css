@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  @apply text-lg
+  @apply text-lg;
+  background-color: #0F172A;
 }
 
 .projects img {
@@ -23,6 +24,12 @@ width: 40px;
 /* color */
 .bg-primary {
   background: #0F172A;
+}
+.bg-primaryOne {
+  background: #151e33;
+}
+.bg-primaryTwo {
+  background: #ffffff;
 }
 
 .bg-secondery {
@@ -52,7 +59,7 @@ nav li a:hover {
 .sticky-header {
   position: sticky;
   top: 0;
-  background: #293244;
+  background: #2e384d;
   z-index: 100; 
 }
 .aboutSession{

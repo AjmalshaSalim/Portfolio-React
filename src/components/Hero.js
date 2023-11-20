@@ -19,7 +19,7 @@ const Hero = () => {
                     </h1>
                     <h2 className="text-2xl lg:text-5xl">MERN Stack<span className="text-accent"> Developer</span></h2>
 
-                    <p className="py-5 text-xl font-light">
+                    <p className="py-5 text-xl font-normal">
                          Proficient in JavaScript, MongoDB, Express, React, Node.js.
                     </p>
 
