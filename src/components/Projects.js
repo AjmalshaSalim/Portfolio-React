@@ -8,56 +8,56 @@ import Jeep from "../assets/Jeep.png";
 import Ds from "../assets/Ds.jpg";
 import Todo from "../assets/Todo.png";
 import GoalSetter from "../assets/GoalSetter.png";
-
+import UserAdmin from  "../assets/userAdmin.png"
 
 const Projects = () => {
     const projects = [
         {
             img: Bigshopy,
             title: "Bigshopy",
-            desc: " An E-commerece Website. Built with CSS, Bootstrap, Node.js, Express.js, MongoDB & MVC Architeture.",
+            desc: " An E-commerece Website. Frontend- HTML, CSS, Bootstrap. Backend- Node.js, Express.js, MongoDB, Nginx. Host- AWS",
             live: "https://www.bigshopy.live/",
             code: "https://github.com/AjmalshaSalim/BIG-SHOPY",
         },
         {
             img: GoalSetter,
             title: "GoalSetter",
-            desc: "Goal Setter App. Used React as Front-end and Node JS as Backend. Database - MongoDB(user & Admin), Firebase(image). Also used JWT",
+            desc: "Goal Setter App.Frontend- React, Backend- Node JS, MongoDB(user & Admin), Firebase(image), JWT",
             live: "/",
             code: "https://github.com/AjmalshaSalim/Goal-Setter-React",
         },
         {
             img: Netflix,
             title: "Netflix Clone",
-            desc: "Netflix official website's clone. Built with CSS, Bootstrap, React, TMDb Database, Axios and JavaScript",
+            desc: "Netflix website's clone. Built with HTML, CSS, Bootstrap, Javascript, React, TMDb API & Axios. Host- Netlify",
             live: "https://netflix-movieseries.netlify.app/",
             code: "https://github.com/AjmalshaSalim/Netflix-Clone",
         },
         {
             img: Olx,
             title: "Olx Clone",
-            desc: "Olx Official website's clone. Built with CSS, Bootstrap, React, Firebase and Javascript",
+            desc: "Olx responsive website clone. Built with CSS, Bootstrap, React, Firebase and Javascript",
             live: "/",
             code: "https://github.com/AjmalshaSalim/OLX-REACT-CLONE",
         },
         {
             img: Tesla,
             title: "Tesla-Clone",
-            desc: "The UI clone of Tesla Official website. Used HTML,CSS,Javascript and Bootstrap",
-            live: "https://ajmalshasalim.github.io/Tesla-Responsive/",
+            desc: "The UI clone of tesla official website. Used HTML,CSS,Javascript and Bootstrap",
+            live: "https://ajmalshasalim.github.io/Tesla-Responsive-Clone/",
             code: "https://github.com/AjmalshaSalim/Tesla-Responsive",
         },
         {
             img: Starlink,
             title: "Starlink-Clone",
-            desc: "The UI clone of Starlink Official website. Used HTML,CSS, Bootstrap",
+            desc: "The UI clone of starlink official website. Used HTML,CSS, Bootstrap",
             live: "https://ajmalshasalim.github.io/starLink/",
             code: "https://github.com/AjmalshaSalim/starLink",
         },
         {
             img: Jeep,
             title: "Jeep-Clone",
-            desc: "The UI clone of Jeep Official website. Used HTML,CSS, Bootstrap",
+            desc: "The UI clone of jeep website. Used HTML,CSS, Bootstrap",
             live: "https://ajmalshasalim.github.io/jeepclone/",
             code: "https://github.com/AjmalshaSalim/jeepclone",
         },
@@ -69,6 +69,13 @@ const Projects = () => {
             code: "https://github.com/AjmalshaSalim/Todo-App-React",
         },
         {
+            img: UserAdmin,
+            title: "Admin & User Management",
+            desc: "User side and admin panel using HTML, CSS, EJS, Node JS, Express JS & MongoDB",
+            live: "https://github.com/AjmalshaSalim/Admin-User-NodeJS",
+            code: "https://github.com/AjmalshaSalim/Admin-User-NodeJS",
+        },
+        {
             img: Ds,
             title: "Data Structure",
             desc: "Array, Linked list, Hashtable, Heap, Stack, Queue, Tree, Graph",
@@ -76,7 +83,7 @@ const Projects = () => {
             code: "https://github.com/AjmalshaSalim/DATA-STRUCTURE",
         },
 
-
+        // https://github.com/AjmalshaSalim/Admin-User-NodeJS
 
     ];
 
@@ -96,7 +103,7 @@ const Projects = () => {
                 <div className="about-img"></div>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-3 gap-10 ">
+            <div className="projects container mx-auto grid md:grid-cols-3 gap-20 ">
                 {projects.map((project, i) => {
                     return (
                         <div className="relative" key={i}>
@@ -109,13 +116,13 @@ const Projects = () => {
                                 <div className="mx-auto">
                                     <a
                                         href={project.live}
-                                        className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold rounded-md"
+                                        className="px-6 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold rounded-md"
                                     >
                                         Live
                                     </a>
                                     <a
                                         href={project.code}
-                                        className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold rounded-md"
+                                        className="px-6 py-2 bg-blue-700 hover:bg-blue-800 font-bold rounded-md"
                                     >
                                         Code
                                     </a>

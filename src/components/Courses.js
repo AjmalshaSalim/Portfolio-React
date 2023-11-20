@@ -39,7 +39,7 @@ const Courses = () => {
                 <div></div>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-2 gap-10">
+            <div className="projects container mx-auto grid md:grid-cols-2 gap-20">
                 {Blog.map((project, i) => {
                     return (
                         <div className="relative" key={i}>
