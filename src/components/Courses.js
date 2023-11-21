@@ -22,14 +22,14 @@ const Courses = () => {
     ];
 
     return (
-        <section className="bg-primary text-white px-5 py-32" id="Courses">
+        <section className="bg-primary text-white tracking-wide px-5 py-32" id="Courses">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
                     <h2 className="text-4xl font-medium mb-5 border-b-[5px] w-[100px] border-indigo-600 pb-2">
                         Courses
                     </h2>
 
-                    <p className="pb-5 font-light ">
+                    <p className="pb-5 font-thin">
                         I am committed to continuously enhancing my expertise in various programming languages through
                         a rigorous regimen of courses and internships. This proactive approach to professional development
                         underscores my dedication to staying at the forefront of the ever-evolving field of software development.

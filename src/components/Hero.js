@@ -10,14 +10,14 @@ import {
 
 const Hero = () => {
     return (
-        <section className="bg-primary px-5 text-white py-32">
+        <section className="bg-primary tracking-wide px-5 text-white py-32">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
                         Hi, <br /><span className="text-accent">I am </span>Ajmalsha Salim<br />
                         
                     </h1>
-                    <h2 className="text-2xl lg:text-5xl">MERN Stack<span className="text-accent"> Developer</span></h2>
+                    <h2 className="text-2xl lg:text-5xl">Full Stack Developer<span className="text-accent"> (MERN)</span></h2>
 
                     <p className="py-5 text-xl font-normal">
                          Proficient in JavaScript, MongoDB, Express, React, Node.js.
@@ -26,7 +26,7 @@ const Hero = () => {
                     <div className="flex py-5 ">
                         <a
                             href="https://twitter.com/Ajmalsha_Salim"
-                            className="pr-4 inline-block text-accent hover:text-white"
+                            className="icons pr-4 inline-block text-accent hover:text-white"
                         >
                             {" "}
                             <AiOutlineTwitter size={40} />{" "}
@@ -40,7 +40,7 @@ const Hero = () => {
                         </a>
                         <a
                             href="https://github.com/AjmalshaSalim"
-                            className="pr-4 inline-block text-accent hover:text-white"
+                            className="icons pr-4 inline-block text-accent hover:text-white"
                         >
                             {" "}
                             <AiOutlineGithub size={40} />{" "}
