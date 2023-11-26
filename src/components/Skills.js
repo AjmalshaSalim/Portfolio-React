@@ -32,7 +32,7 @@ export const Skills = () => {
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[180px] border-lime-400 pb-2">
+              <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                 Skills
               </h2>
               <p className="font-thin tracking-wider">

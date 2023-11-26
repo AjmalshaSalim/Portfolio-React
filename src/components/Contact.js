@@ -1,27 +1,85 @@
-import React from "react";
+import { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
+import { Container, Row, Col } from "react-bootstrap";
+import contactImg from "../assets/contact-img.svg";
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 const Contact = () => {
+  const formInitialDetails = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    message: ''
+  };
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('XjmXlshX', 'template_xzz76cg', form.current, '_tu_G-ou654LRC72-')
+      .then((result) => {
+          console.log(result.text);
+          form.current.reset();
+          alert("Message send");
+      }, (error) => {
+          console.log(error.text);
+          console.log("message failed");
+      })}
+
+  const [formDetails, setFormDetails] = useState(formInitialDetails);
+  const onFormUpdate = (category, value) => {
+    setFormDetails({
+      ...formDetails,
+      [category]: value
+    });
+  };
+
   return (
-    <section className="contactSession bg-secondery px-5 py-32 tracking-wide rounded-tl-full" id="contact">
-      <div className="text-center md:w-[60%] mx-auto text-white">
-        <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[200px] mx-auto border-lime-400 pb-2">
-          Contact Me
-        </h2>
-        <p className="font-light text-md">
-          I am currently open for a fulltime MERN Stack Developer role. If you
-          want to discuss about that feel free to email me or call me.
-        </p>
-        <br />
-        <p className="py-2 font-thin text-md">
-          <span >Email:</span> ajmalaj8085@gmail.com
-        </p>
-        <p className="py-2 font-thin text-md">
-          <span>Whatsapp:</span>+91 9539706416
-        </p>
-        <p className="py-2 font-thin text-md">
-          <span>Phone:<a href="tel:+917306129332">+91 7306129332</a></span>
-        </p>
-      </div>
+    <section className="contact" id="connect">
+      <h2 className="text-4xl font-medium text-white ml-10 mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
+                        Reach Me
+                    </h2>
+      <Container>
+        <Row className="flex items-center">
+          <Col md={6}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <img className={`w-full ${isVisible ? "animate__animated animate__zoomIn" : ""}`} src={contactImg} alt="Contact Us" />
+              )}
+            </TrackVisibility>
+            
+          </Col>
+          <Col md={6}>
+            <TrackVisibility>
+              {({ isVisible }) => (
+                <div className={`flex flex-col ${isVisible ? "" : ""}`}>
+                  {/* animate__animated animate__fadeIn */}
+                  
+                  <form ref={form} onSubmit={sendEmail} className="flex flex-wrap">
+                    <div className="w-full sm:w-1/2 px-2 mb-4">
+                      <input type="text" value={formDetails.firstName} name="firstName" placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="w-full p-2 border border-gray-300 rounded" />
+                    </div>
+                    <div className="w-full sm:w-1/2 px-2 mb-4">
+                      <input type="text" value={formDetails.lasttName} name="lastName" placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="w-full p-2 border border-gray-300 rounded" />
+                    </div>
+                    <div className="w-full sm:w-1/2 px-2 mb-4">
+                      <input type="email" value={formDetails.email} name="email" placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="w-full p-2 border border-gray-300 rounded" />
+                    </div>
+                    <div className="w-full sm:w-1/2 px-2 mb-4">
+                      <input type="tel" value={formDetails.phone} name="phone" placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} className="w-full p-2 border border-gray-300 rounded" />
+                    </div>
+                    <div className="w-full px-2 mb-4">
+                      <textarea rows="6" value={formDetails.message} name="message" placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} className="w-full p-2 border border-gray-300 rounded"></textarea>
+                      <button type="submit" className="bg-blue-500 text-white p-2 rounded"><span>Send</span></button>
+                    </div>
+                  </form>
+                </div>
+              )}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 };

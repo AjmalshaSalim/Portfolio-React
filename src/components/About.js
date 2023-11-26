@@ -6,7 +6,7 @@ const About = () => {
         <section className="aboutSession text-white px-5 py-32 tracking-wide rounded-tr-full" id="About">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="about-info font-light">
-                    <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[180px] border-lime-400 pb-2">
+                    <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                         About Me
                     </h2>
 
