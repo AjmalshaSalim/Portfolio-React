@@ -6,10 +6,10 @@ const Header = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle)
     return (
-        <header className={'flex justify-between tracking-wide px-6 py-3 bg-primary text-white sticky-header rounded-bl-full rounded-br-full '}>
-            <a href="/" className='logo text-2xl font-bold text-accent pl-6'><img src={Logo} alt="Logo" className='logoAj rounded-full' /></a>
+        <header className={'flex justify-between tracking-wide px-6 py-3 text-white sticky-header rounded-bl-full rounded-br-full shadow-gray-900 shadow-2xl'}>
+            <a href="/" className='logo text-2xl font-bold pl-6'><img src={Logo} alt="Logo" className='logoAj rounded-full' /></a>
             {/* Desktop Nav */}
-            <nav className='hidden md:block font-light'>
+            <nav className='hidden md:block font-normal'>
                 <ul className='flex'>
                     <li>
                         <a href="/#About" >About</a>
@@ -24,7 +24,7 @@ const Header = () => {
                         <a href="/#contact" >Contact</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
+                        <a href="https://drive.google.com/file/d/1IH1ZcdCK-US8qTKaCglbVW4zi6srb0nq/view?usp=drive_link"
                             target="_blank"
                             without
                             rel="noreferrer" >Resume</a>

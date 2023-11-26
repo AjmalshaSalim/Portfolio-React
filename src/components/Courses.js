@@ -22,10 +22,10 @@ const Courses = () => {
     ];
 
     return (
-        <section className="bg-primary text-white tracking-wide px-5 py-32" id="Courses">
+        <section className=" text-white tracking-wide px-5 py-32" id="Courses">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-4xl font-medium mb-5 border-b-[5px] w-[100px] border-indigo-600 pb-2">
+                    <h2 className="text-4xl font-medium mb-5 border-b-[5px] w-[100px] border-lime-400 pb-2">
                         Courses
                     </h2>
 
@@ -57,7 +57,7 @@ const Courses = () => {
 
                                     <a
                                         href={project.website}
-                                        className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold rounded-md"
+                                        className="px-5 py-2 text-white hover:text-blue-600 font-bold rounded-md"
                                     >
                                         Website
                                     </a>

@@ -15,7 +15,7 @@ const Projects = () => {
         {
             img: Bigshopy,
             title: "Bigshopy",
-            desc: " An E-commerece Website. Frontend- HTML, CSS, Bootstrap. Backend- Node.js, Express.js, MongoDB, Nginx. Host- AWS",
+            desc: "E-commerece Website. Frontend- HTML, CSS, Bootstrap. Backend- Node.js, Express.js and MongoDB. Host- AWS",
             live: "https://www.bigshopy.live/",
             code: "https://github.com/AjmalshaSalim/BIG-SHOPY",
         },
@@ -29,7 +29,7 @@ const Projects = () => {
         {
             img: Netflix,
             title: "Netflix Clone",
-            desc: "Netflix website's clone. Built with HTML, CSS, Bootstrap, Javascript, React, TMDb API & Axios. Host- Netlify",
+            desc: "Netflix website's clone. Built with HTML, CSS, Bootstrap, Javascript, React, TMDb API. Host- Netlify",
             live: "https://netflix-movieseries.netlify.app/",
             code: "https://github.com/AjmalshaSalim/Netflix-Clone",
         },
@@ -91,7 +91,7 @@ const Projects = () => {
         <section className="bg-primaryOne tracking-wide text-white px-5 py-32" id="projects">
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
                 <div className="about-info mb-5">
-                    <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">
+                    <h2 className="text-4xl font-medium  mb-5 border-b-[5px] w-[180px] border-lime-400 pb-2">
                         Projects
                     </h2>
 
@@ -108,21 +108,21 @@ const Projects = () => {
                     return (
                         <div className="relative" key={i}>
                             <img className="rounded-xl" src={project.img} alt={project.title} />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-xl">
-                                <p className="py-5 text-center font-light px-2 text-white">
+                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%] bg-lime-500 opacity-0 duration-500 justify-center flex-col hover:opacity-100 hover:bg-opacity-80 rounded-xl">
+                                <p className="py-5 text-center font-medium px-2 text-white">
                                     {project.desc}
                                 </p>
 
                                 <div className="mx-auto">
                                     <a
                                         href={project.live}
-                                        className="px-6 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold rounded-md"
+                                        className="px-6 py-2 bg-transparent text-black hover:text-blue-700 mr-5 font-bold rounded-md"
                                     >
                                         Live
                                     </a>
                                     <a
                                         href={project.code}
-                                        className="px-6 py-2 bg-blue-700 hover:bg-blue-800 font-bold rounded-md"
+                                        className="px-6 py-2 bg-transparent text-black   hover:text-blue-700 font-bold rounded-md"
                                     >
                                         Code
                                     </a>

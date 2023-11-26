@@ -10,11 +10,11 @@ import {
 
 const Hero = () => {
     return (
-        <section className="bg-primary tracking-wide px-5 text-white py-32">
+        <section className="bg-primary tracking-wide px-5 py-32">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0">
                     <h1 className="text-4xl lg:text-6xl">
-                        Hi, <br /><span className="text-accent">I am </span>Ajmalsha Salim<br />
+                        Hi, <br /><span className="text-accent">I am Ajmalsha Salim</span><br />
                         
                     </h1>
                     <h2 className="text-2xl lg:text-5xl">Full Stack Developer<span className="text-accent"> (MERN)</span></h2>
@@ -56,7 +56,7 @@ const Hero = () => {
                     <br />
                     <a
                         href="/#projects"
-                        className=" btn bg-accent  border-2 border-[#7477FF] text-white px-6 py-3 hover:bg-transparent rounded-md"
+                        className=" btn bg-lime-500  border-2 border-lime-500 text-white px-6 py-3 hover:bg-transparent hover:text-lime-300 rounded-md"
                     >
                         See Projects
                     </a>
