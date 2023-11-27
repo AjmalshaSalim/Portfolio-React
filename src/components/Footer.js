@@ -19,7 +19,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/profile.php/?id=100093266584023"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://instagram.com/xj_m_xl?igshid=OGQ5ZDc2ODk2ZA=="><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p></p>
           </Col>
         </Row>
       </Container>
