@@ -21,7 +21,7 @@ const Header = () => {
                         <a href="/#Courses" >Courses</a>
                     </li>
                     <li>
-                        <a href="/#contact" >Contact</a>
+                        <a href="/#connect" >Connect</a>
                     </li>
                     <li>
                         <a href="https://drive.google.com/file/d/1IH1ZcdCK-US8qTKaCglbVW4zi6srb0nq/view?usp=drive_link"
@@ -45,7 +45,7 @@ const Header = () => {
             <a href="/#Courses">Courses</a>
         </li>
         <li style={{ zIndex: 1 }}>
-            <a href="/#contact">Contact</a>
+            <a href="/#connect">Connect</a>
         </li>
         <li style={{ zIndex: 2 }}>
             <a href="https://drive.google.com/file/d/1UOM0wxPPnS03etWKujEtypVIIoLGZpIQ/view?usp=drive_link"
