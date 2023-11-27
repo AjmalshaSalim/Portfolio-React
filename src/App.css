@@ -213,17 +213,17 @@ html {
 /************ Footer Css ************/
 .footer {
   background-color: #151e33;
-  padding: 0 0 50px 0;
-  padding-left: 50px;
   background-position: center center;
   background-repeat: no-repeat;
+  justify-content: center;
 }
 .newsletter-bx {
   background: linear-gradient(120deg, #a0d81d 0%, #74e783 100%);
-  border-radius: 50px; /* Adjusted border-radius */
+  border-radius: 30px; /* Adjusted border-radius */
   color: white;
   padding: 40px 20px; /* Adjusted padding */
   margin-bottom: 40px; /* Adjusted margin */
+max-width: 100%vh;
 }
 
 .newsletter-bx h3 {
@@ -248,7 +248,7 @@ html {
   content: "";
   background: transparent;
   border-radius: 20px;
-  position:absolute;
+  position: absolute;
   z-index: -1;
   top: -1px;
   left: -1px;
@@ -281,11 +281,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh; /* Set to 100% of the viewport height */
+  height: 40vh; /* Set to 100% of the viewport height */
 }
 .footer img {
   width: 50px;
-  margin-top: -20px;
   padding-left: 20px;
   padding-bottom: 50px;
 }

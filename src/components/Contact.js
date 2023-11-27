@@ -37,10 +37,11 @@ const Contact = () => {
 
   return (
     <section className="contact" id="connect">
-      <h2 className="text-4xl font-medium text-white ml-10 mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
+      
+      <Container className="mx-auto">
+      <h2 className="text-4xl font-medium text-white ml-10 -ml-2 mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2 ">
                         Reach Me
                     </h2>
-      <Container>
         <Row className="flex items-center">
           <Col md={6}>
             <TrackVisibility>
