@@ -28,7 +28,7 @@ export const Skills = () => {
       className="skill bg-accent text-white px-10 pb-10 py-32 m-0 p-0"
       id="skills"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto" data-aos="fade-left" data-aos-duration="2000">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">

@@ -1,5 +1,8 @@
 import React from "react";
 import HeroImg from "../assets/hero-img.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import {
     AiOutlineTwitter,
@@ -9,10 +12,14 @@ import {
 } from "react-icons/ai";
 
 const Hero = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
         <section className="bg-primary tracking-wide px-5 py-32">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-                <div className="hero-info pb-5 md:pb-0">
+                <div className="hero-info pb-5 md:pb-0" data-aos="fade-right" data-aos-duration="2000">
                     <h1 className="text-4xl lg:text-6xl">
                         Hi, <br /><span className="text-accent">I am Ajmalsha Salim</span><br />
                         

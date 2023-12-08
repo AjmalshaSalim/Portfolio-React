@@ -101,7 +101,7 @@ const Projects = () => {
                 <div className="about-img"></div>
             </div>
 
-            <div className="projects container mx-auto grid md:grid-cols-3 gap-20">
+            <div className="projects container mx-auto grid md:grid-cols-3 gap-20" data-aos="fade-right" data-aos-duration="2000">
                 {projects.map((project, i) => {
                     return (
                         <div className="relative" key={i}>

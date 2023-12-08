@@ -54,7 +54,7 @@ const Contact = () => {
           <Col md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div className={`flex flex-col ${isVisible ? "" : ""}`}>
+                <div className={`flex flex-col ${isVisible ? "" : ""}`} >
                   {/* animate__animated animate__fadeIn */}
                   
                   <form ref={form} onSubmit={sendEmail} className="flex flex-wrap">
