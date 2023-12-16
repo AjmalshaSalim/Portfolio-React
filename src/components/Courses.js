@@ -22,9 +22,9 @@ const Courses = () => {
     ];
 
     return (
-        <section className=" text-white tracking-wide px-5 py-32" id="Courses">
+        <section className=" text-white tracking-wide px-5 py-32" >
             <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
-                <div className="about-info mb-5">
+                <div className="about-info mb-5" id="Courses">
                     <h2 className="text-4xl font-medium mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                         Courses
                     </h2>
@@ -42,9 +42,9 @@ const Courses = () => {
             <div className="projects container mx-auto grid md:grid-cols-2 gap-20">
                 {Blog.map((project, i) => {
                     return (
-                        <div className="relative" key={i}>
+                        <div className="relative" key={i} data-aos="fade-right" data-aos-duration="2000">
                             <img className="rounded-3xl" src={project.img} alt={project.title} />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[80%] h-[80%] bg-primary opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-3xl">
+                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[80%] h-[80%] bg-accent opacity-0 duration-500 justify-center flex-col hover:opacity-90 rounded-3xl">
                                 <p className="py-5 text-center px-2 text-white font-light">
                                     {project.title}
                                     <br />

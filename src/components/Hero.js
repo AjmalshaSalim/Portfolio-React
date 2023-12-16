@@ -17,7 +17,7 @@ const Hero = () => {
         AOS.refresh();
       }, []);
     return (
-        <section className="bg-primary tracking-wide px-5 py-32">
+        <section className="bg-primary tracking-wide px-5 py-32" id="Home">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pb-5 md:pb-0" data-aos="fade-right" data-aos-duration="2000">
                     <h1 className="text-4xl lg:text-6xl">

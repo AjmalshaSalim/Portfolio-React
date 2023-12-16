@@ -6,11 +6,14 @@ const Header = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle)
     return (
-        <header className={'flex justify-between tracking-wide px-6 py-3 text-white sticky-header shadow-gray-900 shadow-2xl'}>
+        <header className={'flex justify-between tracking-wide px-6 py-3 text-white sticky-header shadow-black shadow-2xl'}>
             <a href="/" className='logo text-2xl font-bold pl-6'><img src={Logo} alt="Logo" className='logoAj rounded-full' /></a>
             {/* Desktop Nav */}
             <nav className='hidden md:block font-light'>
                 <ul className='flex'>
+                    <li>
+                        <a href="/#Home" >Home</a>
+                    </li>
                     <li>
                         <a href="/#About" >About</a>
                     </li>
