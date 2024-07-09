@@ -43,12 +43,12 @@ const Contact = () => {
                         Reach Me
                         {/* here */}
                     </h2>
-        <Row className="flex items-center">
+        <Row className="md:flex items-center">
           <Col md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
                 // <img className={`w-full ${isVisible ? "animate__animated animate__zoomIn" : ""}`} src={contactImg} alt="Contact Us" />
-                <iframe src="https://lottie.host/embed/2ebd2c47-2ce1-46b5-8f92-15fcf99102e9/1EK2oTb6oV.json" className="w-[700px] h-[700px]"></iframe>
+                <iframe src="https://lottie.host/embed/2ebd2c47-2ce1-46b5-8f92-15fcf99102e9/1EK2oTb6oV.json" className=" w-[500px] h-[200px] md:w-[700px] md:h-[700px]"></iframe>
               )}
             </TrackVisibility>
             

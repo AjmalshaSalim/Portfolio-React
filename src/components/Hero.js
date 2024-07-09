@@ -76,10 +76,10 @@ const Hero = () => {
                         alt="coding illustration"
                         className="lgw-[80%] ml-auto"
                     /> */}
-                    <iframe src="https://lottie.host/embed/f4d78e4b-5313-4fbf-8b48-97d45214b9bd/ahJq0KcDqm.json" className="w-[400px] ease-in-out duration-300 h-[450px] md:ml-40 hover:w-[500px]"></iframe>
+                    <iframe src="https://lottie.host/embed/f4d78e4b-5313-4fbf-8b48-97d45214b9bd/ahJq0KcDqm.json" className=" w-[300px] md:w-[400px] ease-in-out duration-300 md:h-[450px] md:ml-40 md:hover:w-[500px]"></iframe>
                 </div>
             </div>
-            <div className=' fixed top-[80%] right-5'>
+            <div className=' fixed top-[80%] md:right-5 right-1 z-50'>
             <iframe src="https://lottie.host/embed/22be250d-58b2-4185-a074-9bb72f6a251c/AMkP18XTZ5.json"></iframe>
             </div>
         </section>
