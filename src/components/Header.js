@@ -6,31 +6,31 @@ const Header = () => {
     const [toggle, setToggle] = useState(false);
     const handleToggle = () => setToggle(!toggle)
     return (
-        <header className={'flex justify-between tracking-wide px-6 py-3 text-white sticky-header shadow-black shadow-2xl'}>
+        <header className={'flex justify-between tracking-wide px-6 py-3 text-white sticky-header shadow-black shadow-2xl bg-greengradient hover:bg-none '}>
             <a href="/" className='logo text-2xl font-bold pl-6'><img src={Logo} alt="Logo" className='logoAj rounded-full' /></a>
             {/* Desktop Nav */}
             <nav className='hidden md:block font-light'>
                 <ul className='flex'>
-                    <li>
-                        <a href="/#Home" >Home</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#Home" >Home</a>
                     </li>
-                    <li>
-                        <a href="/#About" >About</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#About" >About</a>
                     </li>
-                    <li>
-                        <a href="/#skills" >Skills</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#skills" >Skills</a>
                     </li>
-                    <li>
-                        <a href="/#projects" >Projects</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#projects" >Projects</a>
                     </li>
-                    <li>
-                        <a href="/#Courses" >Courses</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#Courses" >Courses</a>
                     </li>
-                    <li>
-                        <a href="/#connect" >Connect</a>
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="/#connect" >Connect</a>
                     </li>
-                    <li>
-                        <a href="https://drive.google.com/file/d/1IH1ZcdCK-US8qTKaCglbVW4zi6srb0nq/view?usp=drive_link"
+                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                        <a className=" hover:text-lime-400" href="https://drive.google.com/file/d/1IH1ZcdCK-US8qTKaCglbVW4zi6srb0nq/view?usp=drive_link"
                             target="_blank"
                             without
                             rel="noreferrer" >Resume</a>
@@ -70,6 +70,7 @@ const Header = () => {
                     !toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />
                 }
             </button>
+            
         </header>
     )
 }

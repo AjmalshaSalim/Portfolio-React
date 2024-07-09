@@ -91,6 +91,7 @@ const Projects = () => {
                 <div className="about-info mb-5">
                     <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                         Projects
+                        {/* here */}
                     </h2>
 
                     <p className="pb-5 font-light ">
@@ -106,7 +107,7 @@ const Projects = () => {
                     return (
                         <div className="relative" key={i}>
                             <img className="rounded-xl" src={project.img} alt={project.title} />
-                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%] bg-lime-500 opacity-0 duration-500 justify-center flex-col hover:opacity-100 hover:bg-opacity-80 rounded-xl">
+                            <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%] bg-greengradient opacity-0 duration-500 justify-center flex-col hover:opacity-100 hover:bg-opacity-80 rounded-xl">
                                 <p className="py-5 text-center font-medium px-2 text-white">
                                     {project.desc}
                                 </p>

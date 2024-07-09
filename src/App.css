@@ -25,7 +25,7 @@ width: 40px;
 /* color */
 .bg-primary {
   /* background: #0F172A; */
-  color:#a0d81d;
+  color:#a0d81d;    /*here*/
 background: #000;
 }
 .bg-primaryOne {
@@ -41,13 +41,12 @@ background: #000;
 }
 
 .bg-accent {
-  background-image:linear-gradient(120deg, #a0d81d 0%, #74e783 100%);
   color: #fff;
 }
 
 .text-accent {
   /* color: #7477FF; */
-  background: linear-gradient(120deg, #a0d81d 0%, #74e783 100%);
+  background: linear-gradient(120deg, #a0d81d 0%, #74e783 100%);  /*here*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -68,7 +67,6 @@ nav li a:hover {
 .sticky-header {
   position: sticky;
   top: 0;
-  background-image: linear-gradient(120deg, #b9e948 0%, #74e783 100%);
   z-index: 6000; 
 }
 
@@ -101,7 +99,7 @@ nav li a:hover {
 
 /* --- */
 .aboutSession{
-  background-image: url("./assets/desktop4.jpg");
+  background-image: url("./assets/black-abstract-2.jpg");
   background-size: cover; /* Adjust the size as needed */
   background-repeat: no-repeat;
   background-position: center center;
@@ -145,7 +143,6 @@ nav li a:hover {
 .contact form button {
   font-weight: 400;
   color: white;
-  background-color: #6fe74b;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
@@ -163,7 +160,7 @@ nav li a:hover {
 }
 .contact form button::before {
   content: "";
-  background: #a9da37;
+  background: #a0d81d; /*here*/
   width: 0;
   height: 100%;
   position: absolute;
@@ -180,7 +177,7 @@ nav li a:hover {
 
 /* hero */
 h1 {
-  font-family: 'impact';
+  /* font-family: 'impact'; */
   line-height: 1.5 !important;
 }
 .logo{
@@ -221,7 +218,6 @@ html {
   justify-content: center;
 }
 .newsletter-bx {
-  background: linear-gradient(120deg, #a0d81d 0%, #74e783 100%);
   border-radius: 30px; /* Adjusted border-radius */
   color: white;
   padding: 40px 20px; /* Adjusted padding */

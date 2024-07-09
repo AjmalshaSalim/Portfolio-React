@@ -34,6 +34,7 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                 Skills
+                {/* here */}
               </h2>
               <p className="font-thin tracking-wider">
                 I have honed a diverse range of technological expertise through

@@ -11,10 +11,13 @@ module.exports = {
         modernfont:'#ffff',
         moderncolor:'#ffff',
         blacked:'#000',
-        whiten:'#ffff' 
+        whiten:'#ffff', 
       },
+      backgroundImage: {
+        'greengradient': 'linear-gradient(120deg, #a0d81d 0%, #74e783 100%)',
+        'nogradient': '#a0d81d',
+      }
     },
   },
   plugins: [],
 }
-

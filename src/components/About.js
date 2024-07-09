@@ -3,11 +3,12 @@ import AboutImg from "../assets/about-img.png";
 
 const About = () => {
     return (
-        <section className="aboutSession text-white px-5 py-32 tracking-wide rounded-tr-full" id="About">
+        <section className="aboutSession text-white px-5 py-32 tracking-wide" id="About">
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="about-info font-light" data-aos="fade-right" data-aos-duration="2000">
                     <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                         About Me
+                        {/* here */}
                     </h2>
 
                     <p className="pb-5">
@@ -29,7 +30,7 @@ const About = () => {
                     <img
                         src={AboutImg}
                         alt="coding illustration"
-                        className="lgw-[80%] md:ml-auto rounded-full"
+                        className="lgw-[80%] md:ml-auto rounded-full border-dotted border-2 hover:border-lime-500"
                     />
                 </div>
             </div>

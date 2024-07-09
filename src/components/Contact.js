@@ -41,12 +41,14 @@ const Contact = () => {
       <Container className="mx-auto">
       <h2 className="text-4xl font-medium text-white ml-10 -ml-2 mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2 ">
                         Reach Me
+                        {/* here */}
                     </h2>
         <Row className="flex items-center">
           <Col md={6}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <img className={`w-full ${isVisible ? "animate__animated animate__zoomIn" : ""}`} src={contactImg} alt="Contact Us" />
+                // <img className={`w-full ${isVisible ? "animate__animated animate__zoomIn" : ""}`} src={contactImg} alt="Contact Us" />
+                <iframe src="https://lottie.host/embed/2ebd2c47-2ce1-46b5-8f92-15fcf99102e9/1EK2oTb6oV.json" className="w-[700px] h-[700px]"></iframe>
               )}
             </TrackVisibility>
             
@@ -72,7 +74,7 @@ const Contact = () => {
                     </div>
                     <div className="w-full px-2 mb-4">
                       <textarea rows="6" value={formDetails.message} name="message" placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} className="w-full p-2 border border-gray-300 rounded"></textarea>
-                      <button type="submit" className="bg-blue-500 text-white p-2 rounded"><span>Send</span></button>
+                      <button type="submit" className="bg-greengradient text-white p-2 rounded"><span>Send</span></button>
                     </div>
                   </form>
                 </div>
