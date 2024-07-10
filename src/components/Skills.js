@@ -11,7 +11,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 5,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -31,8 +31,7 @@ export const Skills = () => {
       <div className="container mx-auto" data-aos="fade-right" data-aos-duration="2000">
         <div className="row">
           <div className="col-12">
-            <div className="skill-bx wow zoomIn">
-              <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
+          <h2 className="text-4xl font-medium  mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2">
                 Skills
                 {/* here */}
               </h2>
@@ -44,6 +43,8 @@ export const Skills = () => {
                 exceptional<br></br>
                 results across various projects and initiatives.
               </p>
+            <div className="skill-bx wow zoomIn">
+              
               <Carousel
                 responsive={responsive}
                 infinite={true}

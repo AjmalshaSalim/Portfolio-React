@@ -1,6 +1,8 @@
 import React from "react";
 import Olx from "../assets/Olx.png";
 import Bigshopy from "../assets/Bigshopy.png";
+import Ageis from "../assets/ageis.png"
+import Alepa from "../assets/Alepa.png"
 import Tesla from "../assets/Tesla.png";
 import Netflix from "../assets/Netflix.png";
 import Starlink from "../assets/Starlink.png";
@@ -9,15 +11,69 @@ import Ds from "../assets/Ds.jpg";
 import Todo from "../assets/Todo.png";
 import GoalSetter from "../assets/GoalSetter.png";
 import UserAdmin from  "../assets/userAdmin.png"
+import Hazelwood from "../assets/Hazelwood.png"
+import Propkaart from "../assets/Propkaart.png"
+import Saparnac from "../assets/Saparnac.png"
+import Gymsoft from "../assets/Gymsoft.png"
+import Samrithi from "../assets/samrithi.png"
 
 const Projects = () => {
     const projects = [
+        {
+            img: Gymsoft,
+            title: "Gymsoft Gym Management",
+            desc: "A Gym Management Software For Gym Owners. Frontend- React, Redux, Material Tailwind. Backend- Python, Django and MySQL. Host- Hostinger",
+            live: "https://gymsoft/",
+            code: "https://github.com/",
+        },
+        {
+            img: Alepa,
+            title: "Alepa Organics",
+            desc: "An Ecommerce Website For Honey. Frontend- HTML, CSS, Bootstrap. Backend- Php, Laravel and MySQL. Host- Hostinger",
+            live: "https://alepaorganics.com/",
+            code: "https://github.com/AjmalshaSalim/Alepa-Organic",
+        },
+        {
+            img: Ageis,
+            title: "Ageis Recruitment",
+            desc: "An Efficient Job Recruitment Agency. Frontend- HTML, CSS, Bootstrap. Backend- Python, Django and MySQL. Host- Hostinger",
+            live: "https://ageisrecruitment.online/",
+            code: "https://github.com/AjmalshaSalim/Ageis-Job-Portal",
+        },
         {
             img: Bigshopy,
             title: "Bigshopy",
             desc: "E-commerece Website. Frontend- HTML, CSS, Bootstrap. Backend- Node.js, Express.js and MongoDB. Host- AWS",
             live: "https://www.bigshopy.live/",
             code: "https://github.com/AjmalshaSalim/BIG-SHOPY",
+        },
+        {
+            img: Saparnac,
+            title: "Saparnac Homes LLP",
+            desc: "Popular Residential Builder Located in Thiruvananthapuram. Frontend- HTML, CSS, Bootstrap.  Host- Hostinger",
+            live: "https://www.saparnachomes.com/",
+            code: "https://github.com/AjmalshaSalim/Saparanac-Home-LLC",
+        },
+        {
+            img: Hazelwood,
+            title: "Hazelwood Real Estate",
+            desc: "A UK Based Real Estate Company Website. Frontend- HTML, CSS, Bootstrap. Host- Hostinger",
+            live: "https://wearehazelwood.co.uk/",
+            code: "https://github.com/AjmalshaSalim/Hazelwood-",
+        },
+        {
+            img: Propkaart,
+            title: "Propkaart Real Estate",
+            desc: "A Mumbai Based Real Estate Company Website. Frontend- HTML, CSS, Bootstrap. Host- Hostinger",
+            live: "https://propkaart.in/",
+            code: "https://github.com/AjmalshaSalim/Propkaart-Rental",
+        },
+        {
+            img: Samrithi,
+            title: "Bhuratna Millets",
+            desc: "An E-commerce Website For Millets. Frontend- HTML, CSS, Bootstrap. Host- Hostinger",
+            live: "https://Samrithi.in/",
+            code: "https://github.com/AjmalshaSalim/Bhuratna-Milllets",
         },
         {
             img: GoalSetter,

@@ -23,7 +23,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
 
   return (
     <Col lg={12}>
-      <div className="newsletter-bx wow slideInUp bg-greengradient ">
+      <div className="newsletter-bx wow slideInUp bg-greengradient mx-2 ">
         <Row className="">
           <Col lg={12} md={6} xl={5}>
             <h3>Subscribe to our Newsletter & Never miss latest updates</h3>

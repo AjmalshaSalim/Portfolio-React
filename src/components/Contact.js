@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from '@emailjs/browser';
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -37,7 +36,6 @@ const Contact = () => {
 
   return (
     <section className="contact" id="connect">
-      
       <Container className="mx-auto">
       <h2 className="text-4xl font-medium text-white ml-10 -ml-2 mb-5 border-b-[10px] w-[180px] border-lime-400 pb-2 ">
                         Reach Me
@@ -48,7 +46,7 @@ const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 // <img className={`w-full ${isVisible ? "animate__animated animate__zoomIn" : ""}`} src={contactImg} alt="Contact Us" />
-                <iframe src="https://lottie.host/embed/2ebd2c47-2ce1-46b5-8f92-15fcf99102e9/1EK2oTb6oV.json" className=" w-[500px] h-[200px] md:w-[700px] md:h-[700px]"></iframe>
+                <iframe src="https://lottie.host/embed/2ebd2c47-2ce1-46b5-8f92-15fcf99102e9/1EK2oTb6oV.json" title="contact-bot" className=" w-[400px] h-[200px] md:w-[700px] md:h-[700px]"></iframe>
               )}
             </TrackVisibility>
             
