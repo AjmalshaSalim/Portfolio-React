@@ -29,12 +29,13 @@ const Header = () => {
                     <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#connect" >Connect</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
-                        <a className=" hover:text-lime-400" href="https://drive.google.com/file/d/1IH1ZcdCK-US8qTKaCglbVW4zi6srb0nq/view?usp=drive_link"
-                            target="_blank"
-                            without
-                            rel="noreferrer" >Resume</a>
-                    </li>
+                    <li className="font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+    <a className="hover:text-lime-400" href="https://drive.google.com/file/d/1y3-XHOp-cbrHpCD7E19jzMkGfTb4YYVX/view?usp=sharing"
+       target="_blank"
+       without
+       rel="noreferrer">Resume</a>
+</li>
+
                 </ul>
             </nav>
             {/* Mobile Nav */}
