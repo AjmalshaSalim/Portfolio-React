@@ -19,7 +19,7 @@ const Hero = () => {
         <section className="bg-primary tracking-wide px-5 py-32" id="Home">
              <iframe src="https://lottie.host/embed/38e43bb1-e699-4c40-9c2d-19c0cc5e3059/A8rnuEKFGs.json" title="dots" className="w-[1800px] h-[1800px] absolute -top-5 right-1 z-1"></iframe>
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
-                <div className="hero-info pb-5 md:pb-0" data-aos="fade-right" data-aos-duration="2000">
+                <div className="hero-info pl-5 pb-5 md:pb-0" data-aos="fade-right" data-aos-duration="2000">
                     <h1 className="text-4xl lg:text-6xl font-extrabold">
                         Hi, <br /><span className="text-accent font-extrabold ">I'm Ajmalsha Salim</span><br />
                         
