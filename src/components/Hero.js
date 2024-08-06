@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
                 <div className="hero-info pl-5 pb-5 md:pb-0" data-aos="fade-right" data-aos-duration="2000">
                     <h1 className="text-4xl lg:text-6xl font-extrabold">
-                        Hi, <br /><span className="text-accent font-extrabold ">I'm Ajmalsha Salim</span><br />
+                        Hi, <br /><b className="text-accent font-extrabold ">I'm Ajmalsha Salim</b><br />
                         
                     </h1>
                     <h2 className="text-2xl lg:text-5xl font-extrabold text-white">Full Stack Developer<span className="text-accent"> (MERN)</span></h2>

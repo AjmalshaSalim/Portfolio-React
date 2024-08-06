@@ -11,25 +11,25 @@ const Header = () => {
             {/* Desktop Nav */}
             <nav className='hidden md:block font-light'>
                 <ul className='flex'>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#Home" >Home</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#About" >About</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#skills" >Skills</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#projects" >Projects</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#Courses" >Courses</a>
                     </li>
-                    <li className=" font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className=" font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
                         <a className=" hover:text-lime-400" href="/#connect" >Connect</a>
                     </li>
-                    <li className="font-bold hover:border-dotted hover:border-b-2 hover:border-lime-400">
+                    <li className="font-semibold hover:border-dotted hover:border-b-2 hover:border-lime-400">
     <a className="hover:text-lime-400" href="https://drive.google.com/file/d/1y3-XHOp-cbrHpCD7E19jzMkGfTb4YYVX/view?usp=sharing"
        target="_blank"
        without
